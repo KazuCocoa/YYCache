@@ -189,9 +189,9 @@
 			productReference = 641EE7222240E51B00173FCB /* YYCache.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D93C45AB1F05445A009F80F9 /* YYCache */ = {
+		D93C45AB1F05445A009F80F9 /* YYCache iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D93C45B41F05445A009F80F9 /* Build configuration list for PBXNativeTarget "YYCache" */;
+			buildConfigurationList = D93C45B41F05445A009F80F9 /* Build configuration list for PBXNativeTarget "YYCache iOS" */;
 			buildPhases = (
 				D93C45A71F05445A009F80F9 /* Sources */,
 				D93C45A81F05445A009F80F9 /* Frameworks */,
@@ -202,7 +202,7 @@
 			);
 			dependencies = (
 			);
-			name = YYCache;
+			name = "YYCache iOS";
 			productName = YYCache;
 			productReference = D93C45AC1F05445A009F80F9 /* YYCache.framework */;
 			productType = "com.apple.product-type.framework";
@@ -237,7 +237,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D93C45AB1F05445A009F80F9 /* YYCache */,
+				D93C45AB1F05445A009F80F9 /* YYCache iOS */,
 				641EE7212240E51B00173FCB /* YYCache tvOS */,
 			);
 		};
@@ -465,7 +465,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYCache;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = YYCache;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -485,7 +485,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYCache;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = YYCache;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -512,7 +512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D93C45B41F05445A009F80F9 /* Build configuration list for PBXNativeTarget "YYCache" */ = {
+		D93C45B41F05445A009F80F9 /* Build configuration list for PBXNativeTarget "YYCache iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D93C45B51F05445A009F80F9 /* Debug */,
